@@ -1,0 +1,13 @@
+{
+    "prefix": "@",
+    "token": "",
+    "users": {
+        "Batman": ""  // username id visible when developer options enabled on discord 
+    },
+    "discordnumber" : "",  // discord id for the whole discord group
+    "logchannel" : ""    // log channel by channel id 
+    
+    
+
+     
+}
