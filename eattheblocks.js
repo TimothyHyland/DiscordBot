@@ -6,7 +6,7 @@ const {
   token,
   users
 } = require('./config.json')
-const guild = client.guilds.cache.get('443194073176604684');
+const guild = client.guilds.cache.get();
 
 
 function sleep(ms) {
@@ -43,7 +43,7 @@ if (message.mentions.members.size > 0) {
     
     
     
-   const channelz = client.channels.cache.get('443198764694372352')
+   const channelz = client.channels.cache.get()
    let currentDate = new Date();
    channelz.send(`The message : "${message.content}" by ${message.author} at ${message.createdAt}. Their ID is ${message.author.id}`);
   }
